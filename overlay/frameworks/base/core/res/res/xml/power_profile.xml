@@ -71,6 +71,7 @@
       <value>1996800</value>
       <value>2112000</value>
       <value>2208000</value>
+      <value>2323200</value>
     </array>
 
     <!-- Additional power used by a CPU core from cluster 0 when running at
@@ -102,6 +103,7 @@
        <value>187</value>
        <value>212</value>
        <value>220</value>
+       <value>230</value>
     </array>
     
     <item name="ambient.on">25</item>
