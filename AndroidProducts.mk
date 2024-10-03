@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_a52q.mk
+    $(LOCAL_DIR)/pixelage_a52q.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_a52q-userdebug \
-    aosp_a52q-user \
-    aosp_a52q-eng
+    pixelage_a52q-userdebug \
+    pixelage_a52q-user \
+    pixelage_a52q-eng
