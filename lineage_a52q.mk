@@ -30,8 +30,17 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
+ORION_MAINTAINER := koko
+ORION_MAINTAINER_LINK := <social media link>
+ORION_BUILD_TYPE := UNOFFICIAL
+ORION_GAPPS := true
+TARGET_ENABLE_BLUR := false
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_HAS_UDFPS :=  true
+
+BUILD_GOOGLE_CONTACTS := true
+BUILD_GOOGLE_DIALER := true
+BUILD_GOOGLE_MESSAGE := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_a52q
