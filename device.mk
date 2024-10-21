@@ -33,4 +33,5 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
 # call the extra setup
-$(call inherit-product, vendor/extra/product.mk)
+-include vendor/lineage-priv/keys/keys.mk
+
